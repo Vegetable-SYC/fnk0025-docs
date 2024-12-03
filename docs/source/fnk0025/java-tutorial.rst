@@ -40,7 +40,5 @@ java tutorial
    codes/java-lang/LCD1602.rst
    codes/java-lang/Hygrothermograph_DHT11.rst
    codes/java-lang/Matrix_Keypad.rst
-   codes/java-lang/Infrared_Motion_Sensor.rst
    codes/java-lang/Ultrasonic_Ranging.rst
-   codes/java-lang/Attitude_Sensor_MPU6050.rst
-   codes/java-lang/WhatsNext.rst
+   codes/common/WhatsNext.rst

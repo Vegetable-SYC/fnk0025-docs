@@ -1,5 +1,5 @@
 ##############################################################################
-C language tutorial
+C language tutorial 25
 ##############################################################################
 
 
@@ -44,18 +44,7 @@ C language tutorial
    codes/c-lang/LCD1602.rst
    codes/c-lang/Hygrothermograph DHT11.rst
    codes/c-lang/Matrix Keypad.rst
-   codes/c-lang/Infrared Motion Sensor
    codes/c-lang/Ultrasonic Ranging.rst
-   codes/c-lang/Attitude Sensor MPU6050
-   codes/c-lang/High-sensitivity microphone sensor
-   codes/c-lang/Touch Sensor TTP223.rst
-   codes/c-lang/U-shaped photoelectric sensor
-   codes/c-lang/Hall sensor
-   codes/c-lang/Infrared Obstacle Avoidance Sensor
-   codes/c-lang/Rotary Encoder
-   codes/c-lang/LEDpixel
-   codes/c-lang/BMP180 Barometric Pressure Sensor
    codes/c-lang/RFID
-   codes/c-lang/Soldering a Circuit Board
-   codes/c-lang/Other Components
-   codes/c-lang/WhatsNext.rst
+   codes/common/Other Components
+   codes/common/WhatsNext.rst
