@@ -1,5 +1,5 @@
 ##############################################################################
-C language tutorial 25
+C language tutorial
 ##############################################################################
 
 
@@ -46,5 +46,5 @@ C language tutorial 25
    codes/c-lang/Matrix Keypad.rst
    codes/c-lang/Ultrasonic Ranging.rst
    codes/c-lang/RFID
-   codes/common/Other Components
-   codes/common/WhatsNext.rst
+   codes/c-lang/Other Components
+   codes/c-lang/WhatsNext.rst
