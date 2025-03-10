@@ -283,7 +283,7 @@ First observe the project result, and then learn about the code in detail.
 
 .. code-block:: console
 
-    $ cd ~/Freenove_Kit/Code/Python_GPIOZero_Code/34.1.1_RFID
+    $ cd ~/Freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_RFID
 
 2.	Use python command to execute code "RFID.py".
 
@@ -342,7 +342,7 @@ Command “halt” is used to quit the selection state of the card.
 
 The following is the program code :
 
-.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/34.1.1_RFID/RFID.py
+.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_RFID/RFID.py
     :linenos: 
     :language: python
 
@@ -354,7 +354,7 @@ In the code, first create an MFRC522 class object.
 
 In the function loop, wait for the command input. If command "scan" is received, the function will begin to detect whether there is a card close to the sensing area. If a card is detected, the card will be selected and card UID will be acquired. Then enter the function scan_loop (). If command "quit" or "exit" is received, the program will exit.
 
-.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/34.1.1_RFID/RFID.py
+.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_RFID/RFID.py
     :linenos: 
     :language: python
     :lines: 32-57
@@ -362,7 +362,7 @@ In the function loop, wait for the command input. If command "scan" is received,
 
 The function cmdloop() will detect command read, write, clean, halt, dump and do the corresponding processing to each command. The functions of each command and the method have been introduced before.
 
-.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/34.1.1_RFID/RFID.py
+.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_RFID/RFID.py
     :linenos: 
     :language: python
     :lines: 59-138

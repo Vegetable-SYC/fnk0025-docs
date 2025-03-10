@@ -125,11 +125,11 @@ First, observe the project result, and then learn about the code in detail.
 .. hint:: 
     :red:`If you have any concerns, please contact us via:` support@freenove.com
 
-1.	Use ``cd`` command to enter 24.1.1_UltrasonicRanging directory of C code.
+1.	Use ``cd`` command to enter 23.1.1_UltrasonicRanging directory of C code.
 
 .. code-block:: console
 
-    $ cd ~/Freenove_Kit/Code/C_Code/24.1.1_UltrasonicRanging
+    $ cd ~/Freenove_Kit/Code/C_Code/23.1.1_UltrasonicRanging
 
 2.	Use following command to compile "UltrasonicRanging.c" and generate executable file ``UltrasonicRanging``. 
 
@@ -150,7 +150,7 @@ After the program is executed, aim the Ultrasonic Ranging Module's detectors (â€
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Code/C_Code/24.1.1_UltrasonicRanging/UltrasonicRanging.c
+.. literalinclude:: ../../../freenove_Kit/Code/C_Code/23.1.1_UltrasonicRanging/UltrasonicRanging.c
     :linenos: 
     :language: C
     :lines: 7-42
@@ -171,14 +171,14 @@ If the module does not return high level, we cannot wait for this forever, so we
 
 Subfunction **getSonar()** function is used to start the Ultrasonic Module to begin measurements and return the measured distance in cm units. In this function, first let trigPin send 10us high level to start the Ultrasonic Module. Then use **pulseIn()** to read the Ultrasonic Module and return the duration time of high level. Finally, the measured distance according to the time is calculated.
 
-.. literalinclude:: ../../../freenove_Kit/Code/C_Code/24.1.1_UltrasonicRanging/UltrasonicRanging.c
+.. literalinclude:: ../../../freenove_Kit/Code/C_Code/23.1.1_UltrasonicRanging/UltrasonicRanging.c
     :linenos: 
     :language: C
     :lines: 17-26
 
 Lastly, in the while loop of main function, get the measurement distance and display it continually.
 
-.. literalinclude:: ../../../freenove_Kit/Code/C_Code/24.1.1_UltrasonicRanging/UltrasonicRanging.c
+.. literalinclude:: ../../../freenove_Kit/Code/C_Code/23.1.1_UltrasonicRanging/UltrasonicRanging.c
     :linenos: 
     :language: C
     :lines: 36-40

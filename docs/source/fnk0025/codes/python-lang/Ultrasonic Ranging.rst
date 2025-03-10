@@ -128,11 +128,11 @@ First, observe the project result, and then learn about the code in detail.
     
     :red:`If you have any concerns, please contact us via:`  support@freenove.com
 
-1.	Use cd command to enter 24.1.1_UltrasonicRanging directory of Python code.
+1.	Use cd command to enter 23.1.1_UltrasonicRanging directory of Python code.
 
 .. code-block:: console
 
-    $ cd ~/Freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_UltrasonicRanging
+    $ cd ~/Freenove_Kit/Code/Python_GPIOZero_Code/23.1.1_UltrasonicRanging
 
 2.	Use Python command to execute code "UltrasonicRanging.py".
 
@@ -147,13 +147,13 @@ After the program is executed, aim the Ultrasonic Ranging Module's detectors (�
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_UltrasonicRanging/UltrasonicRanging.py
+.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/23.1.1_UltrasonicRanging/UltrasonicRanging.py
     :linenos: 
     :language: python
 
 First, define the pins and the maximum measurement distance.
 
-.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_UltrasonicRanging/UltrasonicRanging.py
+.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/23.1.1_UltrasonicRanging/UltrasonicRanging.py
     :linenos: 
     :language: python
     :lines: 11-13
@@ -161,7 +161,7 @@ First, define the pins and the maximum measurement distance.
 
 Finally, in the while loop of main function, get the measurement distance and display it continually. 
 
-.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_UltrasonicRanging/UltrasonicRanging.py
+.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/23.1.1_UltrasonicRanging/UltrasonicRanging.py
     :linenos: 
     :language: python
     :lines: 15-18
@@ -181,7 +181,7 @@ You can refer to UltrasonicRanging2.py for detailed code.
 
 .. code-block:: console
 
-    $ cd ~/Freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_UltrasonicRanging
+    $ cd ~/Freenove_Kit/Code/Python_GPIOZero_Code/23.1.1_UltrasonicRanging
 
 1.  Use python command to execute code "Sweep.py".
 
@@ -211,7 +211,7 @@ Run the command to install “pigpio” library.
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/24.1.1_UltrasonicRanging/UltrasonicRanging2.py
+.. literalinclude:: ../../../freenove_Kit/Code/Python_GPIOZero_Code/23.1.1_UltrasonicRanging/UltrasonicRanging2.py
     :linenos: 
     :language: python
 
